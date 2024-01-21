@@ -1,5 +1,6 @@
 package com.example.javaroadmapproject;
 
+import com.example.javaroadmapproject.controlstructures.IfThenElse;
 import com.example.javaroadmapproject.datatypes.NonPrimitiveDataTypes;
 import com.example.javaroadmapproject.datatypes.PrimitiveDataTypes;
 import org.springframework.boot.SpringApplication;
@@ -24,9 +25,15 @@ public class JavaRoadMapProjectApplication {
 		dataTypes.isLong();
 		dataTypes.isDouble();
 
-
 		NonPrimitiveDataTypes nonPrimitiveDataTypes = new NonPrimitiveDataTypes();
 		nonPrimitiveDataTypes.account();
+
+		//Control Structures
+
+		IfThenElse ifThenElse = new IfThenElse();
+		ifThenElse.OddOrEven(5);
+		ifThenElse.NestedIfElse(20,false);
+		ifThenElse.TernaryOperator(7);
 
 	}
 }
