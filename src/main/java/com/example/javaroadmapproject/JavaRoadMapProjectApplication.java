@@ -1,5 +1,6 @@
 package com.example.javaroadmapproject;
 
+import com.example.javaroadmapproject.datatypes.NonPrimitiveDataTypes;
 import com.example.javaroadmapproject.datatypes.PrimitiveDataTypes;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -22,6 +23,10 @@ public class JavaRoadMapProjectApplication {
 		dataTypes.isShort();
 		dataTypes.isLong();
 		dataTypes.isDouble();
+
+
+		NonPrimitiveDataTypes nonPrimitiveDataTypes = new NonPrimitiveDataTypes();
+		nonPrimitiveDataTypes.account();
 
 	}
 }
