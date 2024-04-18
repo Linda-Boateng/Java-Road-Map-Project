@@ -1,4 +1,4 @@
-package javaflweektwodatastructures.arrays;
+package javaflweektwo.arrays;
 
 public class StudentManager {
     private String[] students;
